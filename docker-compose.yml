@@ -22,7 +22,7 @@ services:
     image: "jouiry/multi-client:latest"
     mem_limit: 128m
     hostname: client
-  server:
+  api:
     image: "jouiry/multi-server:latest"
     mem_limit: 128m
     hostname: api
