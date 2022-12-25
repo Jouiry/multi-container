@@ -9,7 +9,7 @@ services:
   nginx:
     image: "jouiry/multi-nginx:latest"
     depends_on:
-      - server
+      - api
       - client
     restart: always
     mem_limit: 128m
